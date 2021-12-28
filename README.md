@@ -17,3 +17,21 @@ P3 Led Display With Arduino
 * OE 9
 * GND GND
 
+For Power just use a powerful enough 5v supply, these panels draw about 30W. I use a PC power supply.
+
+# Coding...
+
+At first, you select a line to draw to via the 4 line select pins. They are in binary, ordered A B C D where a High means 1 and a low means 0. So for example for row 11 we would have A=1 B=1 C=0 D=1 (1+2+0+8 = 11). But now you might say: How is it possible to drive 32 rows with just 4 pins, which give only 2^4=16 options??
+
+The answer lies in the fact, that there are actually two RED channel pins, two GREEN channel pins, and two BLUE channel pins, one for the upper half of the display, and one for the lower half.
+
+Afterwards you have to set your RGB pins either on or off, then make the CLK pin go HIGH and LOW, and after a row full of led data you make the latch go HIGH LOW. You should also turn the OE(Output Enable) HIGH at some point in the line, it doesn't really matter where, I prefer the beginning.
+
+
+
+
+
+
+# Reference
+
+https://github.com/CamelCaseName/HUB75nano
