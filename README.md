@@ -2,6 +2,9 @@
 P3 Led Display With Arduino
 
 # Pin-Out
+
+For Arduino uno
+
 * A A0
 * B A1
 * C A2
@@ -17,7 +20,30 @@ P3 Led Display With Arduino
 * OE 9
 * GND GND
 
+For Arduino Mega (Using Mega)
+
+* A A0
+* B A1
+* C A2
+* D A3
+* R1 24
+* R2 27
+* B1 26
+* B2 29
+* G1 25
+* G2 28
+* LAT 10
+* CLK 11
+* OE 9
+* GND GND
+
+
+
 For Power just use a powerful enough 5v supply, these panels draw about 30W. I use a PC power supply.
+
+# Library
+
+Install Libraray
 
 # Coding...
 
