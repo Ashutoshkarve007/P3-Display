@@ -65,3 +65,5 @@ https://github.com/CamelCaseName/HUB75nano
 https://create.arduino.cc/projecthub/CamelCaseName/running-a-32x64-rgb-led-panel-with-only-an-arduino-nano-c19385
 
 [PxMatrix](https://github.com/2dom/PxMatrix)
+
+[Witnessmenow](https://github.com/witnessmenow/ESP32-HUB75-MatrixPanel-I2S-DMA)
