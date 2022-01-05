@@ -68,3 +68,5 @@ https://create.arduino.cc/projecthub/CamelCaseName/running-a-32x64-rgb-led-panel
 
 [Witnessmenow](https://github.com/witnessmenow/ESP32-HUB75-MatrixPanel-I2S-DMA)
 [Example](https://github.com/witnessmenow/LED-Matrix-Display-Examples/blob/master/LED-Matrix-Instructables-Display/LED-Matrix-Instructables-Display.ino)
+
+[HUB75-ESP32](https://github.com/mrfaptastic/ESP32-HUB75-MatrixPanel-I2S-DMA#can-i-chain-panels)
